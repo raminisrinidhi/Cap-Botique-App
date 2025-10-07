@@ -3,5 +3,5 @@ COPY package*.json ./
 RUN npm install
 WORKDIR /usr/src/app
 COPY . .
-EXPOSE 8087
-CMD ["npm","server.js"]
+EXPOSE 8090
+CMD ["npm","app.js"]
